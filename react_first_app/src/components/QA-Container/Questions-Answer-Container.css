@@ -1,0 +1,49 @@
+.qa-container {
+    background-color: #ffffff;
+}
+
+
+.qa-answer {
+    padding-left: 40px;
+    padding-top: 5px;
+    color: black;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.qa-container.expanded .qa-answer {
+    display: block; /* Show when expanded */
+}
+
+.qa-section{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    border: 2px solid lightgray;
+}
+
+.qa-expand{
+    display: flex;
+    justify-content: space-between; 
+    height: 50px;
+    width: 100%;
+    background-color: red;
+    align-items: left;
+}
+
+  .qa-header {
+    display: flex;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    align-items: space-;
+    gap: 70%;
+    border-radius: 21px;
+    justify-content: space-between; 
+}
